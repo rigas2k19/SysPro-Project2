@@ -6,7 +6,8 @@ Server-client model for directory transfering.
 
 Clean : make clean 
 
-Run : ./dataServer -p <port> -s <thread_pool_size> -q <queue_size> -b <block_size>
+Run :
+      ./dataServer -p <port> -s <thread_pool_size> -q <queue_size> -b <block_size>
 
       ./remoteClient -i <server_ip> -p <server_port> -d <directory>
 
